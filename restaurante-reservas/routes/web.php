@@ -5,7 +5,7 @@ use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\MesaController;
 use App\Http\Controllers\ReservaController;
 
-//Dashboard
+
 Route::get('/', function () {
 return view('welcome');}) ->name('home');
 
